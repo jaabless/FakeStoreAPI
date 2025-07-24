@@ -1,7 +1,6 @@
 package com.example.fakestoreapi.config;
 
 
-
 public class Endpoints {
     public static final String PRODUCTS = "/products";
     public static final String PRODUCTS_DETAILS = "/products/{id}";
