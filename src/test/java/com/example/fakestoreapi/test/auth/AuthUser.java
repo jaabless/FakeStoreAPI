@@ -16,6 +16,7 @@ import static org.hamcrest.Matchers.notNullValue;
 
 public class AuthUser extends BaseTest {
 
+
 //    @ParameterizedTest
 //    @MethodSource("com.example.fakestoreapi.data.TestDataProvider#validAuthUserData")
     @Test
