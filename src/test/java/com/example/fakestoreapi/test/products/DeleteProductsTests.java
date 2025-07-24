@@ -15,8 +15,6 @@ import static org.hamcrest.Matchers.*;
 
 public class DeleteProductsTests extends BaseTest {
 
-
-
     @ParameterizedTest
     @MethodSource("com.example.fakestoreapi.data.TestDataProvider#validIds")
     @Story("DELETE Product")
