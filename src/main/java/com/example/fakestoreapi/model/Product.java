@@ -8,6 +8,7 @@ public class Product {
     private String category;
     private String image;
 
+
     public Product() {}
 
     public Product(int id, String title, double price, String description, String category, String image) {
