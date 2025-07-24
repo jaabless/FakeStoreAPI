@@ -22,6 +22,7 @@ import static org.hamcrest.Matchers.*;
 @ExtendWith(AllureJunit5.class)
 public class PerformanceTests extends BaseTest {
 
+
     @Test
     @Description("Test concurrent requests")
     void testConcurrentRequests() throws Exception {
