@@ -36,6 +36,7 @@ public class PostCartsTests extends BaseTest {
                 .body("id", notNullValue());
     }
 
+
     @ParameterizedTest
     @MethodSource("com.example.fakestoreapi.data.TestDataProvider#invalidCartData")
     @Story("POST Cart")
