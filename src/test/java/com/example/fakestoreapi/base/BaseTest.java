@@ -30,6 +30,7 @@ public abstract class BaseTest {
                 .addFilter(new ResponseLoggingFilter())
                 .addHeader("User-Agent", "Mozilla/5.0 (CI-Test-Agent)")
                 .build();
+
         // Common response specification
         responseSpec = new ResponseSpecBuilder()
                 .expectHeader("Content-Type", containsString("application/json"))
