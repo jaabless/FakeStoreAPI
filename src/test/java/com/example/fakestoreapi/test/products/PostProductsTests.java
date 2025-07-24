@@ -19,6 +19,7 @@ import static org.hamcrest.Matchers.*;
 @ExtendWith(AllureJunit5.class)
 public class PostProductsTests extends BaseTest {
 
+
     @ParameterizedTest
     @MethodSource("com.example.fakestoreapi.data.TestDataProvider#validproductData")
     @Story("POST Product")
