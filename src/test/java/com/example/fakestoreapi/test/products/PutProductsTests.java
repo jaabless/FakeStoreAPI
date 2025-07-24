@@ -15,6 +15,7 @@ import static org.hamcrest.Matchers.*;
 
 public class PutProductsTests extends BaseTest {
 
+
     @ParameterizedTest
     @MethodSource("com.example.fakestoreapi.data.TestDataProvider#validUpdateProductData")
     @Story("PUT Product")
