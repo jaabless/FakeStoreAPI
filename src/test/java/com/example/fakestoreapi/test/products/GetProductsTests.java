@@ -19,6 +19,7 @@ import static org.hamcrest.Matchers.*;
 @ExtendWith(AllureJunit5.class)
 public class GetProductsTests extends BaseTest {
 
+
     @Test
     @Story("GET Products")
     @DisplayName("Test GET all products endpoint")
