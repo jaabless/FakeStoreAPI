@@ -17,6 +17,7 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.Matchers.*;
 
+
 @ExtendWith(AllureJunit5.class)
 public class PostUsersTests extends BaseTest {
 
