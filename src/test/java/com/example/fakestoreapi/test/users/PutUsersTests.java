@@ -1,6 +1,5 @@
 package com.example.fakestoreapi.test.users;
 
-
 import com.example.fakestoreapi.base.BaseTest;
 import com.example.fakestoreapi.config.Endpoints;
 import com.example.fakestoreapi.model.Cart;
