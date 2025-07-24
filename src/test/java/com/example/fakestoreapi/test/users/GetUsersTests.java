@@ -53,6 +53,7 @@ public class GetUsersTests extends BaseTest {
                 .body("id", equalTo(userId));
     }
 
+
     @ParameterizedTest
     @MethodSource("com.example.fakestoreapi.data.TestDataProvider#invalidIds")
     @Story("GET Users")
