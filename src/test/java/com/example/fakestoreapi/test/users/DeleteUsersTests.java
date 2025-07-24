@@ -16,7 +16,6 @@ import static org.hamcrest.Matchers.*;
 
 @ExtendWith(AllureJunit5.class)
 public class DeleteUsersTests extends BaseTest {
-
     @ParameterizedTest
     @MethodSource("com.example.fakestoreapi.data.TestDataProvider#validIds")
     @Story("DELETE Users")
