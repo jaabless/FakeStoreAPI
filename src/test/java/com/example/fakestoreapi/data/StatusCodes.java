@@ -1,6 +1,5 @@
 package com.example.fakestoreapi.data;
 
-
 public class StatusCodes {
 
     public static final int OK = 200;
