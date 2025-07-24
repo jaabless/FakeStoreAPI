@@ -1,5 +1,6 @@
 package com.example.fakestoreapi.model;
 
+
 public class AuthUser {
     private String username;
     private String password;
