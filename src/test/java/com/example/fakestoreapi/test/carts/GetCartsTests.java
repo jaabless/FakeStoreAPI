@@ -53,7 +53,8 @@ public class GetCartsTests extends BaseTest {
 
     @ParameterizedTest
     @MethodSource("com.example.fakestoreapi.data.TestDataProvider#invalidIds")
-    @Description("Test GET /carts/{id} endpoint")
+    @Story("GET Carts")
+    @DisplayName("Test GET /carts/{id} endpoint with invalid ID")
     void testGetCartByInvalidId(int cartId, int expectedStatus) {
         given()
                 .spec(requestSpec)
