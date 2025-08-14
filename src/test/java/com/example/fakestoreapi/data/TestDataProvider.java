@@ -73,7 +73,7 @@ public class TestDataProvider implements ArgumentsProvider {
                                         "1234567890"
                                 )
                         ),
-                        200
+                        201
                 ),
                 // Positive: Valid user
                 Arguments.of(
@@ -91,7 +91,7 @@ public class TestDataProvider implements ArgumentsProvider {
                                         "1234567890"
                                 )
                         ),
-                        200
+                        201
                 )
         );
     }
