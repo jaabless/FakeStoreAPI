@@ -32,7 +32,7 @@ public class GetUsersTests extends BaseTest {
 //                .spec(responseSpec)
                 .statusCode(StatusCodes.OK)
                 .body("size()", greaterThan(0))
-                .body(matchesJsonSchemaInClasspath("schemas/user-schema.json"))
+                .body(matchesJsonSchemaInClasspath("schemas/users-array-schema.json"))
                 .header("Content-Type", containsString("application/json"));
     }
 
